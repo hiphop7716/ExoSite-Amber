@@ -6,14 +6,14 @@
 
 ![pics-1](./img/asset_config.jpg)
 
-2. 資產設定頁面: 選擇一筆已整理的訊號，點擊【新增轉換函式】。
+2. 資產設定: 選擇一筆已整理的訊號，點擊【新增轉換函式】。
 
 ![pics-2](./img/add_transformation.jpg)
 
-3. insight頁面: 選擇【Amber Stream Analytics】，接著選【Pre-Fused Sensor Stream】。
+3. ExoSense Insight: 選擇【Amber Stream Analytics】，接著選【Pre-Fused Sensor Stream】。
 
 ![pics-3](./img/insight.jpg) ![pics-4](./img/amber_module.jpg)
 
-4. 進入參數調整頁面:
+4. Amber參數調整:
 
 ![pics-5](./img/amber_parameter.jpg)
