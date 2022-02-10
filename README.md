@@ -2,19 +2,19 @@
 
 **不討論Amber運作原理，僅說明如何部署Amber**
 
-1. 儀錶板: 選擇一台資產(Asset)，點擊右上角的【修改資產設定】。
+###1. 儀錶板: 選擇一台資產(Asset)，點擊右上角的【修改資產設定】。
 
 ![pics-1](./img/asset_config.jpg)
 
-2. 資產設定: 選擇一筆已整理的訊號，點擊【新增轉換函式】。
+###2. 資產設定: 選擇一筆已整理的訊號，點擊【新增轉換函式】。
 
 ![pics-2](./img/add_transformation.jpg)
 
-3. ExoSense Insight: 選擇【Amber Stream Analytics】，接著選【Pre-Fused Sensor Stream】。
+###3. ExoSense Insight: 選擇【Amber Stream Analytics】，接著選【Pre-Fused Sensor Stream】。
 
 ![pics-3](./img/insight.jpg) ![pics-4](./img/amber_module.jpg)
 
-4. Amber參數調整:
+###4. Amber參數調整:
 
 ![pics-5](./img/amber_parameter.jpg)
 
@@ -31,13 +31,13 @@
 - Learning Max Samples: 當已上傳樣本數超過設定數量即完成訓練。
 - **P.S. 當滿足Learning Rate、Learning Max Clusters、Learning Max Samples三種其一條件都會完成訓練進入Monitoring階段**
 
-5. Anber部署完成:
+###5. Anber部署完成:
 
 ![pics-6](./img/amber_deploy_opt.jpg)
 
 **示意圖為沒有任何資料上傳，此時AW & Metrics為空白**
 
-6. 資料上傳 & Amber輸出觀察
+###6. 資料上傳 & Amber輸出觀察
 
 ![pics-6](./img/amber_data_upload.jpg)
 
@@ -50,3 +50,4 @@
   5. state: 目前階段，順序為 Buffering→AutoTuning→Learning→Monitoring
   6. AH (Anomaly History): 當AD連續為1之滾動次數
   7. AD (Anomaly Detection): 0為正常、1代表異常；勿跟AW搞混，AW為high-level的警報，若實作上AW一直不能及時反饋異常，可觀察AD是否已顯示為1，可透過AD及AH的提示來提早警報，不用等AW變成1或2，可能為時已晚。
+  
