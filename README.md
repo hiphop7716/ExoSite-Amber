@@ -13,4 +13,7 @@
 3. 進入insight頁面，選擇【Amber Stream Analytics】，接著選【Pre-Fused Sensor Stream】。
 
 ![pics-3](./img/insight.jpg) ![pics-4](./img/amber_module.jpg)
-4. 
+
+4. 進入參數調整頁面:
+
+![pics-5](./img/amber_parameter.jpg)
