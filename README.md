@@ -1,1 +1,1 @@
-![](./img/asset_config.jpeg)
+![pics-1](./img/asset_config.jpeg)
