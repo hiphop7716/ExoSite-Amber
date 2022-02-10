@@ -17,3 +17,11 @@
 4. Amber參數調整:
 
 ![pics-5](./img/amber_parameter.jpg)
+
+5. Anber部署完成:
+
+![pics-6](./img/amber_deploy_opt.jpg)
+
+6. 資料上傳 & Amber輸出觀察
+
+![pics-6](./img/amber_data_upload.jpg)
